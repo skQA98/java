@@ -1,3 +1,4 @@
+/*waptd happy diwali if given number is even using if condition*/
 public class If
 {
   public static void main(String[]args)
