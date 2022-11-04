@@ -1,0 +1,8 @@
+public class If
+{
+  public static void main(String[]args)
+  {
+    if(12>0)
+     System.out.println("happy diwali");
+   }
+}
