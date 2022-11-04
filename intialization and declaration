@@ -1,0 +1,18 @@
+/* waptd square and cube of given number if given number is even or odd respectively*/
+public class Decinti
+{
+     public static void main(String []args)
+        {
+            int x;
+            x=10;
+            if(x%2==0)
+            {
+             System.out.println("given number is even and square of given number is "+x*x+".");
+            }
+            else 
+            {
+                System.out.println("given number is odd and cube of given number is" + x*x*x);
+            }
+        }
+     
+}
