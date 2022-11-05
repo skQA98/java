@@ -1,0 +1,19 @@
+/* waptd school name if b is greater than a. a&b are given values */
+public class GreaterIf
+{
+ public static void main(String []args)
+     {
+        int a;
+        int b;
+        a=10;
+        b=5;
+        if(b>a)
+        {
+            System.out.println("PJ GUPTA'S HIGH SCHOOL");
+        }
+        else
+        {
+            System.out.println("EXECUTION COMPLETED");
+        }
+     }
+}
