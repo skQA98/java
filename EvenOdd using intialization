@@ -1,0 +1,17 @@
+/* waptd find even or odd by declaring variables */
+public class EvevOdd
+{
+ public static void main(String []args)
+ {
+  int x;
+  x=17;
+  if(x%2==0)
+  {
+       System.out.println("the given variable "+x+" even number");
+  }
+  else
+  {
+       System.out.println("the given variable "+x+" odd number");
+  }
+     }
+}
