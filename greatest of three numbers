@@ -1,0 +1,26 @@
+public class Greatest {
+    public static void main(String []args) {
+        int a=5;
+        int b=5;
+        int c=5;
+        if (a>b && a>c) {
+            System.out.println("a is greatest");
+        } else if (b>a && b>c) {
+            System.out.println("b is greatest");
+        } else if(c>a && c>b) {
+            System.out.println("c is greatest");
+        } else if(a==b && a>c) {
+            System.out.println("a and b both are greatest");
+        } else if(b==c && b>a) {
+            System.out.println("c and b both are greatest");
+        } 
+        else if(c==a && c>b)
+        {
+            System.out.println("a and c both are greatest");
+        }
+        else
+        {
+            System.out.println("three numbers are same and greatest");
+        }
+    }
+}
