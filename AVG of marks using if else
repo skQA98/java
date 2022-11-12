@@ -1,0 +1,23 @@
+public class Avgmarks {
+    public static void main(String[]args) {
+        int sub1= 90;
+        int sub2= 80;
+        int sub3= 70;
+        
+        int sub4= 60;
+        int sub5= 50;
+        int sub6= 40;
+        float avg=(sub1+sub2+sub3+sub4+sub5+sub6)/6;
+
+        if(avg<40) {
+            System.out.println("failed, your average is = "+avg);
+        } else if(avg>40 && avg<50) {
+            System.out.println("passed,third division and your average is = "+avg);
+        } else if(avg>50 && avg<60) {
+            System.out.println("passed,second division and your average is = "+avg);
+        } else {
+            System.out.println(+sub1+", "+sub2+", "+sub3+", "+sub4+", "+sub5+", "+sub6+" passed,first division and your average is = "+avg);
+        }
+
+    }
+}
